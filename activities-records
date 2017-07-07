@@ -1,0 +1,16 @@
+(date format: month-day-year)
+
+#07-07-2017
+
+"Joao G. Ferreira"
+
+The instances BLAST_CTG (ID: i-0b326ee60f77046d7) and Breu Branco (ID: i-a711353e) were terminated. 
+Their (EBS) volumes was deleted as well, since they had already been backed up by Marcela somewhere.
+
+Those actions should represent savings of up to U$ 77/month, since BLAST_CTG had a 300 GiB volume 
+(ID: vol-0c5d97f0) and Breu Branco had a 500 GiB volume (ID: vol-10a41b8c). The savings were estimated
+using the AWS official calculator for estimating monthly costs (https://calculator.s3.amazonaws.com/index.html)
+and considering that the full capacity of the volumes was being used. If we rather considered that 50% of their
+storage was actually being used, the savings should go down to U$ 37/month.
+
+"Joao G. Ferreira"
