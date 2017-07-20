@@ -14,3 +14,10 @@ and considering that the full capacity of the volumes was being used. If we rath
 storage was actually being used, the savings should go down to U$ 37/month.
 
 "Joao G. Ferreira"
+
+
+#08-20-2017
+
+We changed permissions settings for the bucket "armazenamento-s3-01". 
+   Old permission: Public access > list objects allowed
+   New permission: Public access > list objects not allowed
