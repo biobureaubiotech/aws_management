@@ -21,3 +21,10 @@ storage was actually being used, the savings should go down to U$ 37/month.
 We changed permissions settings for the bucket "armazenamento-s3-01". 
    Old permission: Public access > list objects allowed
    New permission: Public access > list objects not allowed
+   
+   
+   "Marcela Uliano-Silva" 08-26-2017
+   
+I've uploaded the raw and (a few) processed files of the alfa-terpineol projec to S3. Path to S3 is: s3://s3biobureau01/alfa-terpineol/
+The folder contains a readme file. Protocol details are here: https://github.com/biobureaubiotech/alfa-terpineol
+
